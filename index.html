@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Titulo de la web -->
+  <title>Juan X Web</title>
+  <!-- Importacion del archivo de CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- https://boxicon.com/ -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- https://remixicon.com/ -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+  <!-- https://fonts.google.com/ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Esta seccion es la cabecera de la pagina -->
+  <header>
+    <!-- Logo -->
+    <a href="" class="logo">Juan X</a>
+
+    <!-- Truco para que el icono sea clickeable sin usar Javascript -->
+    <input type="checkbox" name="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon-action">
+      <div class='bx bx-menu' id="menu-icon"></div>
+    </label>
+
+
+    <ul class="navlist">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About me</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact me</a></li>
+    </ul>
+
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+  <div class="hero-text">
+    <h5>Fullstack Developer</h5>
+    <h4>ReactJS Junior</h4>
+    <h1>Juan X</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+      Omnis exercitationem neque vitae ipsum distinctio aspernatur in laudantium perspiciatis.</p>
+    <a href="#">CV</a>  
+    <a href="#" class="videos"><i class="ri-play-fill"></i>Mira mis videos</a>
+    
+  </div>
+
+  <div class="hero-img">
+    <img src="/assets/img/SpaceRoom_Night.png" alt="JuanX photo">
+  </div>
+
+  </section>
+
+  <div class="icons">
+    <a href="#"><i class="ri-linkedin-fill"></i></a>
+    <a href="#"><i class="ri-github-fill"></i></a>
+    <a href="#"><i class="ri-youtube-fill"></i></a>
+  </div>
+
+  <div class="scroll-down">
+    <i class="ri-arrow-down-s-fill"></i>
+  </div>
+
+</body>
+</html>
