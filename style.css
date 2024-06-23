@@ -188,6 +188,19 @@ section {
   transform: translateY(-5px);
 }
 
+
+@media (prefers-color-scheme: light){
+  .hero{
+    background: linear-gradient(245.59deg, #95d27f 0%, #35cf2a 25%, #ededed 75%);
+  }
+  .hero-img img{
+    width: 700px;
+    margin: 10% 0 0 0;
+    height: auto;
+    transition: all 3s linear; /* Esto hace que la transicion sea lienal */
+  }
+}
+
 /* Aca vamos a hacer media querys para que la web sea responsibe */
 @media (max-width:992px) {
   section {

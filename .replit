@@ -1,0 +1,10 @@
+entrypoint="index.html"
+
+]
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+publicDir = "/"
+deploymentTarget = "static"
