@@ -185,7 +185,7 @@ section {
 }
 
 .scroll-down i:hover {
-  transform: translateY(-5px);
+  transform: scale(5px);
 }
 
 
