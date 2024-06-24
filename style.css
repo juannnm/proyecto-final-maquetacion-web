@@ -169,13 +169,13 @@ section {
   transform: translateY(-5px);
 }
 
-.scroll-down {
+.light-mode, .black-mode {
   position: absolute;
   bottom: 6%;
   right: 3%;
 }
 
-.scroll-down i {
+.light-mode, black-mode i {
   display: block;
   padding: 12px;
   font-size: 25px;
@@ -184,7 +184,7 @@ section {
   transition: all .5s ease;
 }
 
-.scroll-down i:hover {
+.light-mode, .black-mode i:hover {
   transform: scale(1.1);
 }
 
